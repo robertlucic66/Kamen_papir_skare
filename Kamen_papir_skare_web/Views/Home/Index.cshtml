@@ -1,0 +1,32 @@
+﻿@model Kamen_papir_skare_web.Models.Igrac
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>KAMEN, PAPIR, ŠKARE</h1>
+
+    <p></p>
+    <p></p>
+
+    <form method="post" action="~/Home/Index">
+
+        <fieldset>
+            <legend>Odaberite</legend>
+            <label>@Html.RadioButtonFor(m => m.Odabir, "KAMEN") Kamen</label>
+            <label>@Html.RadioButtonFor(m => m.Odabir, "PAPIR") Papir</label>
+            <label>@Html.RadioButtonFor(m => m.Odabir, "SKARE") Škare</label>
+        </fieldset>
+
+        <p></p>
+        <button type="submit">Potvrdi</button>
+        <p></p>
+
+        <p>CPU je odbarao @ViewBag.InputCPU</p>
+        <p>@ViewBag.Pobjednik</p>
+    </form>
+
+    <p></p>
+    <p></p>
+    <p></p>
+</div>

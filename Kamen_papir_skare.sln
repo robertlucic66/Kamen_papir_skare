@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamen_papir_skare", "Kamen_papir_skare\Kamen_papir_skare.csproj", "{813AEF69-0FA1-44B2-B99D-17319E07FAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamen_papir_skare_web", "Kamen_papir_skare_web\Kamen_papir_skare_web.csproj", "{3828E53B-652D-4A75-838C-6DE408AC9C8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{813AEF69-0FA1-44B2-B99D-17319E07FAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813AEF69-0FA1-44B2-B99D-17319E07FAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813AEF69-0FA1-44B2-B99D-17319E07FAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813AEF69-0FA1-44B2-B99D-17319E07FAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3828E53B-652D-4A75-838C-6DE408AC9C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3828E53B-652D-4A75-838C-6DE408AC9C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3828E53B-652D-4A75-838C-6DE408AC9C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3828E53B-652D-4A75-838C-6DE408AC9C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BB4B713-8648-4832-8E1B-E90BCACEAA47}
+	EndGlobalSection
+EndGlobal
